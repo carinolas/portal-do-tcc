@@ -117,6 +117,9 @@ input[name='usertype']:checked > label{
 .padding-title{
     padding: 16px;
 }
+.date-picker-x{
+	clip-path: none;
+}
 .item-abnt{
     border: solid thin blue;
     padding: 18px;
@@ -181,9 +184,10 @@ input[name='usertype']:checked > label{
     color: #000;
 }
 @media screen and (max-width: 1400px){
+
 .titulo{
     font-size: 32px;
-    position: relative;
+    position: static;
     padding: 16px 0!important;
     margin-top: 40px;
 }
@@ -191,4 +195,53 @@ input[name='usertype']:checked > label{
 
 .input-cadastro{
     width: 100%;
+}
+
+#convite{
+    text-align: center;
+}
+.hr-workflow{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: 88%;
+}
+.workflow{
+    line-height: 0%;
+    margin-left: 10px;
+}
+.items{
+    background-color: lightgrey;
+    width: 400px;
+    box-shadow: 2px 2px 10px 0.1px #000;
+    padding: 15px;
+    margin-top: 0px;
+    margin-left: 50px;
+
+}
+
+.titulo-tarefa{
+    font-size: 15px;
+    line-height: 8px;
+}
+
+.contador{
+    text-align: right;
+    font-size: 13px;
+    line-height: 0;
+}
+
+#calendario{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 50%;
+    
+
+}
+
+.a-menu{
+    color:white !important;
+}
+
+textarea{
+    max-height: 60px;
 }
